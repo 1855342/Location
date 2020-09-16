@@ -1,5 +1,5 @@
 //But : Écrire un programme pour calculer le montant qu'un individu devra débourser pour faire un voyage dans une automobile louée. L'algorithme tient compte du kilométrage
-//         parcouru et de la durée du voyage qui sont soumises par le requérant.
+//         parcouru et de la durée du voyage qui sont soumises par le requérant. 
 //Auteur: Charles St-VIncent   
 //Date: 20/09/16
 
