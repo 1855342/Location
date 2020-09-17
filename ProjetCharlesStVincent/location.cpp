@@ -21,7 +21,7 @@ int main()
     loc = 45;
     ess = 0.95;
 
-
+    // Demander à l'individu le nombre de kilomètre parcourue et le nombre de jour de location
     std::cout << "Donne nous les km : ";
     std::cin >> kmt; 
     std::cout << "Veuillez entrer le nombre de jour : ";
@@ -30,7 +30,7 @@ int main()
 
     if(kmt >= 0 && nbj >= 1)
     {
-        if (kmt / nbj <= 250)
+        if (kmt / nbj <= 250)         /* Lorsque le client fait 250 ou en bas de 250 s'il dépasse 250 il vas se retrouver dans le else*/
         {
             std::cout << "Le prix : " << (nbj * loc) + (kmt * ess) << "$" << std::endl << std::endl << std::endl;
          
@@ -44,7 +44,7 @@ int main()
     
     }
         
-    else
+    else          /*Si l'individu entre des valeurs négatives*/
     { 
         std::cout << "Les informations ne peuvent pas être négative" << std::endl << std::endl << std::endl;
 
